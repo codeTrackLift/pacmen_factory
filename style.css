@@ -14,7 +14,6 @@
 html {
     overflow-x: hidden;
     background-color: dimgray;
-    /* overflow-x: hidden; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -77,7 +76,7 @@ button {
     font-weight: 900;
 }
 
-button:hover {
+.buttonEffect {
     background-color: transparent;
     color: white;
     border-color: white;

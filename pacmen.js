@@ -71,20 +71,8 @@ function update() {
 }
 
 function checkCollisions(item) {
-    // let containerSize = document.getElementById('game').getBoundingClientRect();
-    // let limitX = containerSize.width;
-    // let limitY = containerSize.height;
     let limit = checkContainerSize();
     let imgWidth = item.newimg.width;
-    // if (item.position.x >= limitX - imgWidth ||
-    // item.position.x <= 0) {
-    //     item.velocity.x *= -1;
-    //     item.direction = (item.direction + 1) % 2;
-    // }
-    // if (item.position.y >= limitY - imgWidth - 20 ||
-    // item.position.y <= 0) {
-    //     item.velocity.y *= -1;
-    // }
     if (item.position.x >= limit.x - imgWidth ||
     item.position.x <= 0) {
         item.velocity.x *= -1;
@@ -105,10 +93,12 @@ function checkContainerSize() {
 }
 
 function makeOne() {
+    buttonEffect('buttonMake');
     pacMen.push(makePac());
 }
 
 function run() {
+    buttonEffect('buttonRun');
     if(!runStatus) {
         intervalID = setInterval(update, 50);
         runStatus = !runStatus;
@@ -121,6 +111,7 @@ function run() {
 }
 
 function shakeOne() {
+    buttonEffect('buttonZap');
     let remove = document.getElementById('game').childNodes[1];
     pacMen.shift();
     remove.classList.add('shake');
@@ -133,4 +124,12 @@ function shakeOne() {
 function removeOne() {
     let remove = document.getElementById('game');
     remove.removeChild(remove.childNodes[1]);
+}
+
+function buttonEffect(buttonId) {
+    let buttonClicked = document.getElementById(buttonId);
+    buttonClicked.classList.add('buttonEffect');
+    buttonClicked.addEventListener('transitionend', () => {
+      buttonClicked.classList.remove('buttonEffect'); 
+    }, { once: true });
 }
