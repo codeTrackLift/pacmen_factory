@@ -83,6 +83,11 @@ button {
     text-shadow: 2px 2px black;
 }
 
+#buttonRun {
+    background-color: lime;
+    width: 7rem;
+}
+
 /* Shake animation */
 img.shake {
     animation: shake 0.25s linear 4;

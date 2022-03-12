@@ -99,13 +99,18 @@ function makeOne() {
 
 function run() {
     buttonEffect('buttonRun');
+    let buttonRun = document.getElementById('buttonRun');
     if(!runStatus) {
         intervalID = setInterval(update, 50);
         runStatus = !runStatus;
+        buttonRun.style.backgroundColor = 'red';
+        buttonRun.innerText = 'STOP';
         return
     }
     if(runStatus) {
         runStatus = !runStatus;
+        buttonRun.style.backgroundColor = 'lime';
+        buttonRun.innerText = 'START';
         clearInterval(intervalID);
     }
 }
