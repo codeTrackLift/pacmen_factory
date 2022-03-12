@@ -3,7 +3,8 @@
 ><img src='https://codetracklift.github.io/pacmen_factory/images/aquaPacMan.ico' width='30'> ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory <img src='https://codetracklift.github.io/pacmen_factory/images/pacman3.png' width='25'>](https://codetracklift.ithub.io/pacmen_factory/)
 
 ## About
-This was developed during Bootcamp Week 5. We were supplied with starter code and PacMan images. 
+This was developed during Bootcamp Week 5. Starter code and PacMan images were supplied. 
+
 >**Assignment Objectives**:
 <ol>
     <li>Make a PacMan at a random position on the screen</li>
@@ -13,6 +14,14 @@ This was developed during Bootcamp Week 5. We were supplied with starter code an
     <li>PacMen should change direction of movement upon hitting a screen edge</li>
     <li>PacMan image set should change based on direction of horizontal movement</li>
     <li>Project should operate with buttons</li>
+</ol>
+
+>**Skills Utilized**:
+<ol>
+    <li>Languages: HTML, CSS, JavaScript</li>
+    <li>DOM Manipulation</li>
+    <li>JavaScript Objects and Arrays</li>
+    <li>CSS Animations</li>
 </ol>
 
 >**Custom Features**:
