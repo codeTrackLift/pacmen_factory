@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <!-- Font CSS Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <div id='game'><img id='background' src="./images/giphyFish.gif" alt=""></div>
+    </div>
+
+    <div id="buttons">
+        <button onclick='makeOne()' width='200' height='30'>Spawn PacMan</button>
+        <button onclick='run()' width='200' height='30'>Start Stop</button>
+        <button onclick='shakeOne()' width='200' height='30'>Zap PacMan</button>
+    </div>
+
+    <footer>
+        <p>Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            <a href="https://www.codebypete.com">
+                <img src="https://www.codebypete.com/pics/pharma2code_icon.gif" style='height:2rem;'
+                    alt="codeByPete Logo.">
+                <span style="color:white;">code</span><span style="color:#00857c;">By</span><span
+                    style="color:lime;">Pete</span>
+            </a>
+        </p>
+        <a href="https://github.com/codetracklift" target="_blank"><img class="socialLogo"
+                src="https://www.codebypete.com/pics/GitHub-Mark-Light-64px.png" alt="GitHub Icon"></a>
+        <a href="https://twitter.com/codetracklift" target="_blank"><img class="socialLogo"
+                src="https://www.codebypete.com/pics/Twitter_social_icons-circle-white.png" alt="Twitter Icon"></a>
+        <a href="https://www.linkedin.com/in/codebypete/" target="_blank"><img class="socialLogo"
+                src="https://www.codebypete.com/pics/linkedin_white.png" alt="LinkedIn Icon"></a>
+    </footer>
+</body>
+
+<script src="./pacmen.js">
+</script>
+
+</html>

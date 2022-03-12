@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Menlo Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Menlo Regular'), url('https://www.codebypete.com/libraries/Menlo-Regular.woff') format('woff');
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: dimgray;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+button {
+    gap: 2rem;
+    padding: 1rem;
+    background-color: lime;
+    border-radius: 4px;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.25s ease-in-out;
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: black;
+    color: lime;
+    border-color: lime;
+}
+
+iframe {
+    border: 5px solid black;
+}
+
+#game {
+    margin: 0 auto;
+    width:90%;
+    height:80%;
+    /* padding-bottom:50%; */
+    position:relative;
+}
+
+#background {
+    width: 90%;
+    height: 80%;
+    position: absolute;
+    border: 3px solid lime;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* Shake animation */
+img.shake {
+    animation: shake 0.25s linear 4;
+  }
+  @keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-2px, 0, 0);
+        border-color: black;
+        border-radius: 4px;
+        opacity: 1;
+        filter: invert(90%);
+    }
+    20%,
+    80% {
+        transform: translate3d(4px, 0, 0);
+        border-color: black;
+        border-radius: 4px;
+        opacity: 1;
+        filter: invert(90%);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-8px, 0, 0);
+        border-color: blue;
+        border-radius: 50%;
+        opacity: 1;
+    }
+    40%,
+    60% {
+        transform: translate3d(8px, 0, 0);
+        border-color: blue;
+        border-radius: 50%;
+        opacity: 1;
+    }
+  }
+
+footer {
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white;
+  }
+  
+  footer>a, footer>p {
+    margin: auto 0;
+  }
+  
+  footer>p>a>span {
+    font-style: italic;
+  }
+  footer>p>a {
+    text-decoration: none;
+  }
+  
+  footer>p>a>img {
+    animation: slowSpin 5s ease-in-out infinite;
+    margin-bottom: -0.5rem;
+  }
+  
+  @keyframes slowSpin {
+    0% { 
+        transform: scale(1); 
+    }
+    50% {
+        transform: scale(-1, 1);
+    }
+    100% { 
+        transform: scale(1); 
+    }
+  }
+  
+  .socialLogo {
+    max-height: 1.5rem;
+    transition: transform 0.5s ease-in-out;
+    margin-bottom: -0.5rem;
+  }
+  
+  .socialLogo:hover {
+    transform: scale(-1, 1) scale(1);
+  }
