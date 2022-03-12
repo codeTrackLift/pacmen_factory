@@ -18,7 +18,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
-h1, p {
+h1, #welcomeMessage>p {
     text-align: center;
     font-family: Menlo Regular;
     text-shadow: 2px 2px black;
