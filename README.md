@@ -1,63 +1,45 @@
-<head>
-    <link rel="stylesheet" href="./style.css">
-    <style>
-        html {
-            background: transparent !important;
-            text-shadow: 2px 2px black;
-        }
-        h2 {
-            color: cornflowerblue;
-        }
-        .listNoBullets {
-            list-style-type: none;
-            margin-left: -1.5rem;
-        }
-        li>span {
-            color: cadetblue;
-            font-size: 1.25rem;
-        }
-        a:link,
-        a:visited {
-            color: lime;
-            text-decoration: none;
-        }
-    </style>
-</head>
-
-# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' style='width:2.5rem;margin-bottom:-0.5rem;'> Portfolio Project: Pac-Men Factory
+# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Portfolio Project: Pac-Men Factory
 
 ## About
-We were supplied with starter code and PacMan images. Assignment objectives:
-<ul>
+We were supplied with starter code and PacMan images. **Assignment objectives**:
+<ol>
     <li>Make a PacMan at a random position on the screen</li>
     <li>Move PacMan along the x and y-axis at random velocities</li>
     <li>PacMan should use alternating images to simulate 'chomping' movement</li>
     <li>PacMan should change direction of movement upon hitting a screen edge</li>
     <li>PacMan images should change based on direction of horizontal movement</li>
     <li>Project should operate with buttons</li>
-</ul>
+</ol>
 
-Just for fun, I added some additional features:
-<ul>
+Just for fun, I added some **Additional Features**:
+<ol>
     <li>'Aquarium Theme' with animated background</li>
     <li>Matching 'Aqua-Suit' with random colors</li>
     <li>PacMan spawns within 'Aquarium' boundaries</li>
     <li>Random spawn sizes</li>
     <li>Button to make PacMan move, now toggles movement</li>
     <li>Button to ZAP! PacMan, which removes the first PacMan element from the array and DOM</li>
-    <li>Project is responsive, but reload may be necessary if screen size changes while moving</li>
-</ul>
+    <li>Project is responsive, a reload may be necessary if screen size changes while moving</li>
+</ol>
 
 ## How to Run
 This project has three buttons, and they operate as follows: 
-<ul>
-    <li class='listNoBullets'><span>Add PacMan</span> - Creates a PacMan within aquarium boundaries with random: position, velocity, size, and 'Aqua-Suit' color.</li>
-    <li class='listNoBullets'><span>Start Stop</span> - Starts PacMen moving on their designated trajectory; or Stops them in place.</li>
-    <li class='listNoBullets'><span>ZAP! PacMan</span> - Gives the first PacMan in the array a quick, but fatal ZAP! They are removed from the array, as well as the DOM.</li>
-</ul>
+
+>***Add PacMan***
+
+- Creates a PacMan within aquarium boundaries with random: position, velocity, size, and 'Aqua-Suit' color.
+
+>***Start Stop***
+
+- Starts PacMen moving on their designated trajectory; or Stops them in place.
+
+>***ZAP! PacMan***
+
+- Gives the first PacMan in the array a quick, but fatal *ZAP!* They are removed from the array, as well as the DOM.
+
 
 ## Future Roadmap
-I may incorporate what I learned about handling an array of DOM elements into my <a href='https://codetracklift.github.io/pacman' target='_blank'>Pac-Man Mini-Game</a> project.
+I may incorporate what I learned about handling an array of DOM elements into my [Pac-Man Mini-Game](https://codetracklift.github.io/pacman/) Project.
 
 ## MIT License
 
