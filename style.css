@@ -11,6 +11,12 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+    font-family: Menlo Regular;
+    color: white;
+}
+
 html {
     background-color: dimgray;
     overflow-x: hidden;
@@ -47,18 +53,25 @@ iframe {
 
 #game {
     margin: 0 auto;
-    width:90%;
-    height:80%;
-    /* padding-bottom:50%; */
+    width: 95vw;
+    height: 70vw;
     position:relative;
 }
 
 #background {
-    width: 90%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     position: absolute;
-    border: 3px solid lime;
+    border: 0.25rem solid black;
+    border-top: 2rem solid black;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media (orientation: landscape) {
+    #game {
+        width: 50vw;
+        height: 30vw;
+    }
 }
 
 /* Shake animation */

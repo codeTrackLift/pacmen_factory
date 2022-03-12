@@ -70,8 +70,8 @@ function update() {
 
 function checkCollisions(item) {
     let containerSize = document.getElementById('game').getBoundingClientRect();
-    let limitX = containerSize.width * 0.9;
-    let limitY = containerSize.height * 0.8;
+    let limitX = containerSize.width;
+    let limitY = containerSize.height;
     let imgWidth = item.newimg.width;
     if (item.position.x >= limitX - imgWidth ||
     item.position.x <= 0) {
