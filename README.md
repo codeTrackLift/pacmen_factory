@@ -1,13 +1,16 @@
 # <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Pac-Men Factory Project
 
+><img src='https://codetracklift.github.io/pacmen_factory/images/giphyFish.gif' width='30'> ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory <img src='https://codetracklift.github.io/pacmen_factory/images/pacman3.png' width='25'>](https://codetracklift.ithub.io/pacmen_factory/)
+
 ## About
 This was developed during Bootcamp Week 5. We were supplied with starter code and PacMan images. 
->**Assignment objectives**:
+>**Assignment Objectives**:
 <ol>
     <li>Make a PacMan at a random position on the screen</li>
-    <li>Move PacMan along the x and y-axis at random velocities and trajectories</li>
-    <li>PacMan should use alternating images to simulate 'chomping' movement</li>
-    <li>PacMan should change direction of movement upon hitting a screen edge</li>
+    <li>Ability to handle an Array of PacMen</li>
+    <li>Move PacMen along the x and y-axis at random velocities and trajectories</li>
+    <li>PacMen should use alternating images to simulate 'chomping' movement</li>
+    <li>PacMen should change direction of movement upon hitting a screen edge</li>
     <li>PacMan image set should change based on direction of horizontal movement</li>
     <li>Project should operate with buttons</li>
 </ol>
