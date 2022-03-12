@@ -10,18 +10,24 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
+<bod
+y>
     <div>
-        <h1>PacMen Aquarium</h1>
+        <h1>Aqua-PacMan Factory</h1>
     </div>
+
     <div id="container">
         <div id='game'><img id='background' src="./images/giphyFish.gif" alt=""></div>
     </div>
 
+    <div id="welcomeMessage">
+        <p>Use the buttons below to <span>Spawn</span> an Aqua-PacMan, <span>Start/Stop</span> Movement, or <span>Zap</span> an Aqua-Man if you made too many.</p>
+    </div>
+
     <div id="buttons">
-        <button onclick='makeOne()' width='200' height='30'>Spawn PacMan</button>
-        <button onclick='run()' width='200' height='30'>Start Stop</button>
-        <button onclick='shakeOne()' width='200' height='30'>Zap PacMan</button>
+        <button onclick='makeOne()'>Spawn PacMan</button>
+        <button onclick='run()'>Start Stop</button>
+        <button onclick='shakeOne()'>Zap PacMan</button>
     </div>
 
     <footer>
