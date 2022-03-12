@@ -1,4 +1,4 @@
-# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Portfolio Project: Pac-Men Factory
+# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Pac-Men Factory Project
 
 ## About
 We were supplied with starter code and PacMan images. **Assignment objectives**:
