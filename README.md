@@ -55,7 +55,7 @@ NOTE: If any PacMen happen become trapped 'out of bounds,' or otherwise behave s
 
 
 ## Future Roadmap
-I may incorporate what I learned about handling an array of DOM elements into my [Pac-Man Mini-Game](https://codetracklift.github.io/pacman/) Project.
+I may incorporate what I learned about handling an array of DOM elements into my [Pac-Man Mini-Game](https://github.com/codeTrackLift/pacman).
 
 ## MIT License
 
