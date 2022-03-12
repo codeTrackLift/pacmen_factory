@@ -27,7 +27,9 @@ function randomColor() {
 
 function makePac() {
     let velocity = setToRandom(50);
-    let position = setToRandom(100);
+    let limit = checkContainerSize();
+    let minLimit = Math.min(limit.x, limit.y);
+    let position = setToRandom(minLimit * 0.5 + minLimit * 0.15);
     let size = Math.floor(Math.random() * 100) + 20;
     let game = document.getElementById('game');
     let newimg = document.createElement('img');
@@ -44,7 +46,7 @@ function makePac() {
     newimg.style.borderRadius = '50%';
     newimg.style.opacity = 0.75;
     newimg.width = size;
-    newimg.style.left = position.x;
+    newimg.style.left = position.x * 2;
     newimg.style.top = position.y;
     game.appendChild(newimg);
     return {
@@ -69,20 +71,37 @@ function update() {
 }
 
 function checkCollisions(item) {
-    let containerSize = document.getElementById('game').getBoundingClientRect();
-    let limitX = containerSize.width;
-    let limitY = containerSize.height;
+    // let containerSize = document.getElementById('game').getBoundingClientRect();
+    // let limitX = containerSize.width;
+    // let limitY = containerSize.height;
+    let limit = checkContainerSize();
     let imgWidth = item.newimg.width;
-    if (item.position.x >= limitX - imgWidth ||
+    // if (item.position.x >= limitX - imgWidth ||
+    // item.position.x <= 0) {
+    //     item.velocity.x *= -1;
+    //     item.direction = (item.direction + 1) % 2;
+    // }
+    // if (item.position.y >= limitY - imgWidth - 20 ||
+    // item.position.y <= 0) {
+    //     item.velocity.y *= -1;
+    // }
+    if (item.position.x >= limit.x - imgWidth ||
     item.position.x <= 0) {
         item.velocity.x *= -1;
         item.direction = (item.direction + 1) % 2;
     }
-    if (item.position.y >= limitY - imgWidth - 20 ||
+    if (item.position.y >= limit.y - imgWidth - 20 ||
     item.position.y <= 0) {
         item.velocity.y *= -1;
     }
-    
+}
+
+function checkContainerSize() {
+    let containerSize = document.getElementById('game').getBoundingClientRect();
+    return {
+        x: containerSize.width,
+        y: containerSize.height
+    }
 }
 
 function makeOne() {
