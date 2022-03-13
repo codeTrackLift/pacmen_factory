@@ -1,6 +1,6 @@
 # <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Pac-Men Factory Project
 
-><img src='https://codetracklift.github.io/pacmen_factory/images/aquaPacMan.ico' width='30'> ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory <img src='https://codetracklift.github.io/pacmen_factory/images/pacman3.png' width='25'>](https://codetracklift.github.io/pacmen_factory/)
+<img src='https://codetracklift.github.io/pacmen_factory/images/aquaPacMan.ico' width='30'> ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory <img src='https://codetracklift.github.io/pacmen_factory/images/pacman3.png' width='25'>](https://codetracklift.github.io/pacmen_factory/)
 
 >**Skills Utilized**:
 <ol>
