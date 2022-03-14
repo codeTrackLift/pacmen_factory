@@ -1,6 +1,6 @@
-# <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Pac-Men Factory Project
+# <img src='https://www.codebypete.com/pics/pacman/aquaPacMan.gif' alt='Aqua-PacMan animated gif' width='50'> <img src='https://www.codebypete.com/pics/about/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Pac-Men Factory Project
 
-<img src='https://codetracklift.github.io/pacmen_factory/images/aquaPacMan.ico' width='30'> ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory <img src='https://codetracklift.github.io/pacmen_factory/images/pacman3.png' width='25'>](https://codetracklift.github.io/pacmen_factory/)
+ ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory](https://codetracklift.github.io/pacmen_factory/)
 
 >**Skills Utilized**:
 <ol>
@@ -53,16 +53,12 @@ This project has three buttons, and they operate as follows:
 
 NOTE: If any PacMen happen become trapped 'out of bounds,' or otherwise behave strangely, a reload should resolve the issue.  This could occur during re-sizing of the 'Aquarium' while the PacMen are moving.
 
-
 ## Future Roadmap
-I may incorporate what I learned about handling an array of DOM elements into my [Pac-Man Mini-Game](https://github.com/codeTrackLift/pacman).
+- [x] Create function to remove one PacMan
+- [x] Create container for custom PacMan boundaries
+- [x] Upgrade 'move' button to toggle 'start/stop'
+- [x] Customize and make it fun!
+- [x] Make fully responsive
+- [x] Make mobile compatible
 
-## MIT License
-
-Copyright (c) 2022 Pete Chu <img src='https://www.codebypete.com/pics/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This is a progression project, no further development is anticipated.
