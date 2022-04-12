@@ -1,4 +1,4 @@
-# <img src='https://codetracklift.github.io/codeTrackLift/logos/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Full Stack Bootcamp: Pac-Men Factory Project
+# <img src='https://codetracklift.github.io/codeTrackLift/logos/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'> Pac-Men Factory | Full Stack Bootcamp Project
 
 <img src='./images/aquaPacMan.ico' alt='Aqua-PacMan image' width='30'> ***Try Demo:*** [https://codetracklift.github.io/pacmen_factory](https://codetracklift.github.io/pacmen_factory/)
 
@@ -7,7 +7,7 @@
     <li>Languages: HTML, CSS, JavaScript</li>
     <li>DOM Manipulation</li>
     <li>JavaScript Objects and Arrays</li>
-    <li>CSS Effects</li>
+    <li>Custom CSS Effects</li>
 </ol>
 
 ## About
