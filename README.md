@@ -65,7 +65,7 @@ This is a progression project, no further development is anticipated.
 
 ## MIT License
 
-Copyright (c) 2022 Pete Chu <img src='https://codetracklift.github.io/codeTrackLift/logos/pharma2code_icon.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
+Copyright (c) 2022 Pete Chu <img src='https://codetracklift.github.io/codeTrackLift/logos/giphyPharma2Code.gif' alt='codeByPete logo' width='25'> ***[codeByPete](https://www.codebypete.com/)***
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
